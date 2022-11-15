@@ -16,6 +16,22 @@ $(save(), {
   var save2 = localStorage.getItem("hour-2");
   var save3 = localStorage.getItem("hour-3");
 
+  var hourNine = document.getElementById("hour-9")
+  localStorage.setItem("hour-9", hourNine.value);
+  var hourTen = document.getElementById("hour-10")
+  localStorage.setItem("hour-10", hourTen.value);
+  var hourEleven = document.getElementById("hour-11")
+  localStorage.setItem("hour-11", hourEleven.value);
+  var hourNoon = document.getElementById("hour-12")
+  localStorage.setItem("hour-12", hourNoon.value);
+  var hourOne = document.getElementById("hour-1")
+  localStorage.setItem("hour-1", hourOne.value);
+  var hourTwo = document.getElementById("hour-2")
+  localStorage.setItem("hour-2", hourTwo.value);
+  var hourThree = document.getElementById("hour-3")
+  localStorage.setItem("hour-3", hourThree.value);
+ 
+
   //
   // TODO: Add code to apply the past, present, or future class to each time
   // block by comparing the id to the current hour. HINTS: How can the id
